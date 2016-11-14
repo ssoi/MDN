@@ -1,9 +1,9 @@
 # Mixture Density Network with TensorFlow (R API)
 ## Intro
 ---
-Implementation of Chris Bishop's [Mixture Density Networks|http://www.cedar.buffalo.edu/~srihari/CSE574/Chap5/Chap5.7-MixDensityNetworks.pdf] 
-based on an inspiring [blog post|http://blog.otoro.net/2015/11/24/mixture-density-networks-with-tensorflow/] and RStudio's recently
-released [TensorFlow API|https://rstudio.github.io/tensorflow/].
+Implementation of Chris Bishop's [Mixture Density Networks](http://www.cedar.buffalo.edu/~srihari/CSE574/Chap5/Chap5.7-MixDensityNetworks.pdf)
+based on an inspiring [blog post](http://blog.otoro.net/2015/11/24/mixture-density-networks-with-tensorflow/) and RStudio's recently
+released [TensorFlow API](https://rstudio.github.io/tensorflow/).
 
 ## Results (Preliminary)
 Using a relatively simple test case, estimating x = 7sin(3y/4) + y/2 (with Gaussian noise), TensorFlow successfully converges and fits the model. 
