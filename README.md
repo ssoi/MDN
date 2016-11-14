@@ -9,7 +9,7 @@ released [TensorFlow API](https://rstudio.github.io/tensorflow/).
 Using a relatively simple test case, estimating x = 7sin(3y/4) + y/2 (with Gaussian noise), TensorFlow successfully converges and fits the model. 
 An example of sample (B=1000) drawn from the predicted distribution of y given a random test sample
 is shown:
-![Prediction](../assets/prediction.png)
+![Prediction](assets/prediction.png)
 
 ## TODO
 *  Employ magrittr %>% paradigm to make construction of TensorFlow model easier to read
